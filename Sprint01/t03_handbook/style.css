@@ -1,0 +1,68 @@
+.grid{
+    display:grid;
+    grid-template-columns: 100px 1fr 1fr 1fr;
+    width:400px;
+
+}
+.col{
+    width:200px;
+    border: 2px solid rgb(160, 25, 25) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.colCss {
+    width:200px;
+    border: 2px solid rgb(63, 27, 192) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.colProtocl {
+    width:200px;
+    border: 2px solid rgb(9, 229, 245) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.left{
+    position:sticky;
+    left:0;
+    z-index:999;
+    background:lightgray;
+}
+
+@media only screen and (max-width: 1024px) {
+    html {
+        font-size: 1.3vw;
+    }
+    #grid {
+        width: 36.5rem;
+    }
+    #grid:nth-child(3), #grid:nth-child(4) {
+        margin-top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 2.8vw;
+    }
+    #grid {
+        width: 100%;
+    }
+    #grid:nth-child(2) {
+        margin-top: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    html {
+        font-size: 3.5vw;
+    }
+    #grid {
+        width: 100%;
+    }
+    #grid:nth-child(2) {
+        margin-top: 1.2rem;
+    }
+}
+

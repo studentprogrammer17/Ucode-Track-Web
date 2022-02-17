@@ -1,0 +1,35 @@
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    margin-left: 10px;
+}
+
+img {
+    width: 120px;
+}
+
+span.degrees {
+    color: black;
+    font-size: 20px;
+}
+
+span.blueColor {
+    background-color: #48c6da;
+    color: white;
+}
+
+#weather {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Lato';
+}
+
+.prognoz:hover {
+    width: 120px;
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+}
+
+

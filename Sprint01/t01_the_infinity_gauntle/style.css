@@ -1,0 +1,12 @@
+.glow:hover + table .odd td:nth-child(odd) {
+    opacity: 0;
+}
+
+.glow:hover + table .even td:nth-child(even) {
+    opacity: 0;
+}
+
+
+
+
+

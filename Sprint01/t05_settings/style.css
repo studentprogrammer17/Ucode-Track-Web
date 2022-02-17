@@ -1,0 +1,361 @@
+.colors > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: relative;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0px 200px;
+    left: 200px;
+}
+
+.pColor {
+    color:white;
+    margin-left: 400px;
+}
+
+.colors input {
+    margin: 0;
+    padding: 0;
+    display:block;
+    height:30px;
+    overflow:hidden;
+    width: 40px;
+}
+  
+.colors > div > input {
+    position: absolute;
+    z-index: -1;
+    visibility: hidden;
+}
+  
+  .colors > div > input + label {
+    width: 25px;
+    height: 25px;
+    border-radius: 12px;
+  }
+  
+  .colors > div > input:checked + label::after {
+    content: "✓";
+    text-align: center;
+    color: rgb(55, 71, 77);
+    font-size: 14px;
+    position: relative;
+    left: 6px;
+    top: 2px;
+  }
+  
+  .colors > div #blue + label {
+    background: #5274b4;
+  }
+  
+  .colors > div #green + label {
+    background: #75b7a6;
+  }
+  
+  .colors > div #pink + label {
+    background: #c168c5;
+  }
+  
+  .colors > div #yellow + label {
+    background: #dbd878;
+  }
+  
+  .colors > div #orange + label {
+    background: #c78565;
+  }
+
+
+
+h1 {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: white;
+}
+
+select {
+    width: 220px;
+    height: 50px;
+    background-color: #1abc9c;
+    color: #fff;
+    font-size: inherit;
+    padding: .5em;
+    padding-right: 2.5em; 
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 0.8rem;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: rgb(46, 48, 58);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    background-color: #333745;
+    display: grid;
+    place-items: start center;
+    grid-template-rows: max-content auto;
+    gap: 1rem;
+    height: 100vh;
+}
+
+.settingsWindow {
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 0.8rem;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: rgb(51, 58, 97);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+img {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.chooseInstrument {
+    text-align: center;
+    margin-top: -400px;
+    border-radius: 5%;
+    margin-left: 620px;
+    grid-template-columns: repeat(16, 1fr);
+    grid-gap: 0.8rem;
+    width: 70px;
+    height: 400px;
+    background-color: rgb(113, 127, 139);
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.darkUI {
+    margin-top: -80px;
+    margin-left: 500px;
+}
+
+.switch {
+    margin-top: -90px;
+    margin-left: 500px;
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch .switchID {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+
+  
+  .switchID:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  .switchID:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  .switchID:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  .slideContainer {
+    width: 200px; 
+  }
+  
+
+  .sliderRange {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+
+  .sliderRange:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+  .smallA {
+      color: white;
+      font-size: 12px;
+  }
+
+  .largeA {
+    color: white;
+    font-size: 22px;
+    margin-left: 180px;
+}
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .sliderRange::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .sliderRange::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+
+  
+.checkBoxFont:checked, 
+.checkBoxFont:not(:checked), 
+.checkBoxFont:checked, 
+.checkBoxFont:not(:checked)  {
+      position: absolute;
+      left: -9999px;
+}
+  
+  .checkBoxFont:checked + label, 
+  .checkBoxFont:not(:checked) + label, 
+  .checkBoxFont:checked + label, 
+  .checkBoxFont:not(:checked) + label {
+      display: inline-block;
+      position: relative;
+      padding-left: 28px;
+      line-height: 20px;
+      cursor: pointer;
+  }
+  
+.checkBoxFont:checked + label:before, 
+.checkBoxFont:not(:checked) + label:before,
+.checkBoxFont:checked + label:before, 
+.checkBoxFont:not(:checked) + label:before {
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 18px;
+      height: 18px;
+      border: 1px solid #dddddd;
+      background-color: #ffffff;
+  }
+  
+  .checkBoxFont:checked + label:before, 
+  .checkBoxFont:not(:checked) + label:before {
+      border-radius: 2px;
+  }
+  
+  .checkBoxFont:checked + label:before, 
+  .checkBoxFont:not(:checked) + label:before {
+      border-radius: 100%;
+  }
+  
+  .checkBoxFont:checked + label:after, 
+  .checkBoxFont:not(:checked) + label:after, 
+  .checkBoxFont:checked + label:after, 
+  .checkBoxFont:not(:checked) + label:after {
+      content: "";
+      position: absolute;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+  }
+  
+  .checkBoxFont:checked + label:after, 
+  .checkBoxFont:not(:checked) + label:after {
+      left: 3px;
+      top: 4px;
+      width: 10px;
+      height: 5px;
+      border-radius: 1px;
+      border-left: 4px solid #e145a3;
+      border-bottom: 4px solid #e145a3;
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  }
+  
+  input[type="radio"]:checked + label:after, 
+  input[type="radio"]:not(:checked) + label:after {
+      left: 5px;
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%;
+      background-color: #e145a3;
+  }
+  
+  input[type="checkbox"]:not(:checked) + label:after, 
+  input[type="radio"]:not(:checked) + label:after {
+      opacity: 0;
+  }
+  
+  input[type="checkbox"]:checked + label:after, 
+  input[type="radio"]:checked + label:after {
+      opacity: 1;
+  }
+

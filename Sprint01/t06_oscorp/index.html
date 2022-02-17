@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>KHPI Dormitories</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KHPI Dormitories</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 top-menu">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+            </li>
+              <a style = "margin-left: 200px;" class="navbar-brand" href="#">BEST Obshagas here!!</a>
+          </ul>
+
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"><i class="fa-solid fa-user"></i></a>
+            </li>  
+
+            <li class="nav-item">
+                <a class="nav-link" href="#"  data-bs-toggle="modal" data-bs-target="#1modal-cart"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                <div class="modal fade" id="modal-cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid my-carousel">
+      <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../t06_oscorp\assets\images\khpi.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../t06_oscorp\assets\images\gigant.jpg" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../t06_oscorp\assets\images\13.jpg" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div> 
+    <div class = "priceField">
+        <p class = "priceObshagasText">Price</p>
+        <div class = "slideContainer">
+            <input class = "sliderRange" type="range" min="0" max="200" step="1" value="50"> 
+        </div>
+        <span class = "priceObshaga1">0</span>
+        <span class = "priceObshaga2">200</span>
+   </div>
+
+   <div class = "checkboxAll">
+    <p class = "Worth">Worth</p>
+     <input class = "checkbox" type="checkbox" id="cb1"> <label for="cb1">0-20%</label>
+     <input class = "checkbox" type="checkbox" id="cb2"> <label for="cb2">20-40%</label>
+     <input class = "checkbox" type="checkbox" id="cb3"> <label for="cb3">40-60%</label>
+     <input class = "checkbox" type="checkbox" id="cb4"> <label for="cb4">60-80%</label>
+     <input class = "checkbox" type="checkbox" id="cb5"> <label for="cb5">80-100%</label>
+   </div>
+
+    <section class="main-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="card.html"><img src="../t06_oscorp\assets\images\gigantProd.jpg" alt=""></a>
+              </div>
+
+              <div class="product-details">
+                <h4><a href="card.html">Dormitory 1 "Giant"</a></h4>
+                <p>Largest, oldest and the first dormitory for students of the Polytechnic Institute. 
+                  Ten interconnected five- and six-story sections were built in 1928-1931 
+                  (architects Professor A. G. Molokin, G. D. Ikonnikov).
+                <br><b>Street: Pushkinska 79/1</b></p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                <div class="product-price">
+                  <small>$15123457</small>$99.99
+                </div> 
+                <div class="product-links">
+                  <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div> 
+              </div>  
+              </div>  
+              
+            </div> 
+          </div> 
+
+            <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="../t06_oscorp\assets\images\obshaga_9.jpg" alt=""></a>
+              </div>
+
+              <div class="product-details">
+                <h4><a href="#">Dormitory #9</a></h4>
+                <p>The 5-storey corridor-type dormitory was built in 1964. 
+                  Located on the territory of the complex "Alexeyevsky". Kitchens, toilets and washrooms
+                   - on each floor, showers - on the 1st floor.
+                    There are sports rooms, rooms for classes and recreation.
+                    <br><b>Street: Tselinogradskaya,38</b> </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                <div class="product-price">
+                  <small>$3023567</small>$69.98
+                </div> 
+                <div class="product-links">
+                  <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div> 
+              </div>  
+              </div>  
+              
+            </div> 
+          </div> 
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a  href="#"><img src="../t06_oscorp\assets\images\obshaga_2.jpg" alt=""></a>
+              </div>
+
+              <div class="product-details">
+                <h4><a href="#">Dormitory #2</a></h4>
+                <p>Dormitory of improved conditions. 
+                  The 9-storey building is equipped with 2 modern elevators.
+                   It is located near the Akademika Pavlova metro station.
+                    All services, premises and living rooms were overhauled. 
+                    <br><b>Street: Zubenko,9A</b> </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                <div class="product-price">
+                  <small>$123413414</small>$199.99
+                </div> 
+                <div class="product-links">
+                  <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div> 
+              </div>  
+              </div>  
+              
+            </div> 
+          </div> 
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="../t06_oscorp\assets\images\obshaga_14.jpg" alt=""></a>
+              </div>
+
+              <div class="product-details">
+                <h4><a href="#">Dormitory #14</a></h4>
+                <p>A 5-storey corridor-type dormitory was built in 1968. Kitchens, toilets and washrooms
+                   - on each floor, showers - on the 1st floor. 
+                   There are sports rooms, rooms for classes and recreation.
+                    <br><b>Street: Balkanska,19</b> </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                <div class="product-price">
+                  <small>$9310391</small>$72.18
+                </div> 
+                <div class="product-links">
+                  <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div> 
+              </div>  
+              </div>  
+              
+            </div> 
+          </div> 
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="../t06_oscorp\assets\images\obshaga_11.jpg" alt=""></a>
+              </div>
+
+              <div class="product-details">
+                <h4><a href="#">Dormitory #11</a></h4>
+                <p>The 5-storey corridor-type dormitory was built in 1968. 
+                  Located on the territory of the complex "Alexeyevsky".
+                  Kitchens, toilets and washrooms - on each floor, showers on the 1st floor.
+                   There are sports rooms, rooms for classes and recreation.
+                    <br><b>Street: Tselinogradskaya,48</b> </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                <div class="product-price">
+                  <small>$1398412</small>$91.99
+                </div> 
+                <div class="product-links">
+                  <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div> 
+              </div>  
+              </div>  
+              
+            </div> 
+          </div> 
+
+          <div class="col-lg-4 col-sm-6 mb-3">
+            <div class="product-card">
+              <div class="product-thumb">
+                <a href="#"><img src="../t06_oscorp\assets\images\obshaga_7.jpg" alt=""></a>
+              </div>
+
+              <div class="product-details">
+                <h4><a href="#">Dormitory #7</a></h4>
+                <p>Built in 1986. Located on the territory of the complex "Alexeyevsky". 
+                  The 9-storey dormitory is equipped with 2 elevators, block type - two rooms in the block.
+                  All services and premises were overhauled.
+                    <br><b>Street: Peremozhna,19</b> </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                <div class="product-price">
+                  <small>$3023567</small>$69.98
+                </div> 
+                <div class="product-links">
+                  <a href="#"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div> 
+              </div>  
+              </div>  
+              
+            </div> 
+          </div> 
+
+            
+            </div> 
+          </div> 
+
+
+        </div>
+      </div>
+    </section> 
+
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <h4>Information:</h4>
+              <ul class="list-unstyled">
+                <li><a href="#">Main</a></li>
+                <li><a href="#">Dormitories</a></li>
+                <li><a href="#">Topic Snack</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>  
+
+            <div class="col-md-3 col-6">
+              <h4>Ofiice:</h4>
+              <ul class="list-unstyled">
+                <li>Ukraine, Kharkiv, Pushkinska 79/1</li>
+                <li>Tuesday: 12:00 - 18:00</li>
+                <li>All other days I'm busy (drinking beer)</li>
+              </ul>
+            </div>  
+
+            <div class="col-md-3 col-6">
+              <h4>Contacts:</h4>
+              <ul class="list-unstyled">
+                <li><a href="tel:5551255661">88005535</a></li>
+                <li><a href="tel:5551255645">+380991583853</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-3 col-6">
+              <h4>Social Networks:</h4>
+              <div class="footer-icons">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+              </div>
+            </div>    
+
+          </div>  
+        </div>  
+      </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+

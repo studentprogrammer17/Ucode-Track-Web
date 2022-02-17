@@ -1,0 +1,36 @@
+#inputField {
+    color: green;
+    height: 2em;
+    width: 500px;
+    padding: 0px 10px;
+}
+
+#buttonFind {
+   color: green;
+   height: 2em;
+   width: 60px;
+   padding: 0px 10px;
+}
+
+#buttonFind:hover {
+    color: red;
+    height: 2em;
+    width: 60px;
+ }
+
+ #inputField:hover {
+    color: red;
+    height: 2em;
+    width: 500px;
+ }
+
+ .block {
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .searchfield {
+    display: flex;
+    width: 100%;
+ }
+ 

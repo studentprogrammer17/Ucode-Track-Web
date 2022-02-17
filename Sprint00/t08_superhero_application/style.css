@@ -1,0 +1,28 @@
+form {
+    width: 97%;
+    height: 500px;
+    border: 2px solid gray;
+    padding:20px;
+}
+ 
+
+
+fieldset {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 2px solid gray;
+    height: 200px;
+}
+
+fieldset.powers {
+    height: 80px;
+}
+
+fieldset.OriginPowers {
+    height: 40px;
+}
+
+#age {
+    width: 30px;
+}

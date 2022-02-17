@@ -1,0 +1,103 @@
+#TableHeroes {
+    display: flex;
+    flex-wrap: wrap;
+    float: left; 
+}
+
+.allHero {
+    position: relative;
+    width: 270px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+div {
+    position: relative;
+    float: left;
+}
+
+#CapAmerica {
+    background-image: linear-gradient(#4568DC,#B06AB3);
+}
+
+#CapAmericaImg {
+    margin-top:-32px;
+}
+
+#IronManaImg {
+    margin-top:-32px;
+}
+
+#WidowImg {
+    margin-top:-32px;
+}
+
+#IronMan {
+    background-image: linear-gradient(#e52d27,#b31217);
+}
+
+#BlackWidow {
+    background-image: linear-gradient(#000,#61045F);
+}
+
+#SpiderMan {
+    background-image: linear-gradient(#e52d27,#000);
+}
+
+#SpiderManImg {
+    margin-top:-5px;
+}
+
+
+
+img {
+    height: 182px;
+    position: relative;
+}
+
+p {
+    color: white;
+    size: 12px;
+    margin-top: -160px;
+    text-align: right;
+}
+
+#aliasSpider {
+    color: white;
+    size: 12px;
+    margin-top: -190px;
+    text-align: right;
+}
+
+#realName {
+    color: rgba(255,255,255,0.5);
+    size: 9px;
+    margin-top: -15px;
+    text-align: right;
+}
+
+#realNameIron {
+    color: rgba(255,255,255,0.5);
+    size: 9px;
+    margin-top: -15px;
+    text-align: right;
+}
+
+#realNameWidow {
+    color: rgba(255,255,255,0.5);
+    size: 9px;
+    margin-top: -15px;
+    text-align: right;
+}
+
+#realNameSpider {
+    color: rgba(255,255,255,0.5);
+    size: 9px;
+    margin-top: -15px;
+    text-align: right;
+}
+

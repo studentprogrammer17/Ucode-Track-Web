@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>Settings</title>
+        <meta name = "description" content = "t05. Settings.">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <h1>Settings</h1>
+        <div class = "container">
+            <div class = "settingsWindow">
+
+                <h2>Typeface</h2> 
+                <select name="Fonts">
+                    <option value="1">Acunim Pro</option>
+                    <option value="2">Comic Sans</option>
+                    <option disabled value="3">Times New Roman</option>
+                  </select>
+                
+                  <h2 class = "darkUI">Dark UI</h2>
+                  <label class="switch">
+                    <input class = "switchID" type="checkbox">
+                    <span class="slider round"></span>
+                  </label>
+                
+                  <br> <br> <br> <br> <br> <br>
+                  <p style = "color: white" >Weight</p>
+                  <div class = "group">
+                    <input class = "checkBoxFont" type="checkbox" id="cb1"> <label for="cb1">Regular</label>
+                    <input class = "checkBoxFont" type="checkbox" id="cb2"> <label for="cb2">Bold</label>
+                </div>
+
+                <br>
+                <div class="colors">
+                    <p class = "pColor">Color</p>
+                    <div>
+                        <input type="checkbox" id = "blue" class = "blueColor"> <label for="blue"></label>
+                        <input type="checkbox" id = "green" class = "greeneColor"> <label for="green"></label>
+                        <input type="checkbox" id = "pink" class = "pinkColor"> <label for="pink"></label>
+                        <input type="checkbox" id = "yellow" class = "yellowColor"> <label for="yellow"></label>
+                        <input type="checkbox" id = "orange" class = "orangeColor"> <label for="orange"></label>
+                    </div>
+                </div>
+                    <br>
+                    <p>Size</p>
+                    <div class = "slideContainer">
+                        <input class = "sliderRange" type="range" min="0" max="100" step="1" value="50"> 
+                    </div>
+                
+                   
+                
+
+                <div class = "chooseInstrument">
+                    <img class = "artBrush"  src = "assets/images/artistic-brush.png" alt = "artBrush">
+                    <img class = "artBrush"  src = "assets/images/user-icon.png" alt = "artBrush">
+                    <img class = "artBrush"  src = "assets/images/sms-speech-bubble.png" alt = "artBrush">
+                    <img class = "artBrush"  src = "assets/images/computer-screen.png" alt = "artBrush">
+                </div>
+                <span class = "smallA">A</span>
+                <span class = "largeA">A</span>
+            </div>
+        </div>
+    </body>
+</html>
+

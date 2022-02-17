@@ -1,0 +1,25 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: green;
+    animation: shake 5s ease-out alternate infinite;
+    float: left;
+    transition: 2s cubic-bezier(.17,.67,.83,.67);
+}
+
+p {
+    text-align: center;
+    position: relative;
+    top:70px;
+}
+
+.circle:hover {
+    background-color: red;
+}
+@keyframes shake {
+    50% {
+        transform: translateX(calc(100vw - 180px));
+    }
+}
+

@@ -1,0 +1,41 @@
+.imgField {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin: 25px;
+}
+.loadedFrom {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    width: 100%;
+}
+
+.complete {
+    background-color: green;
+}
+
+p {
+    position: absolute;
+    font-size: 1em;
+    background-color: red;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 6px;
+    top: 0;
+    right: 0;
+    width: 200px;
+    text-align: center;
+}
+p.done {
+    background-color: lightgreen;
+}

@@ -1,0 +1,10 @@
+{
+  "name": "node-ejs",
+  "main": "C:/Users/ДементийЦ/Desktop/Sprint06/t07_go_web/index.js",
+  "dependencies": {
+    "document": "^0.4.7",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "jsdom": "^19.0.0"
+  }
+}

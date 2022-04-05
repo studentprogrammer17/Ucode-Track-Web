@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Charsets</title>
+        <meta name="description" content="t02.Charset">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="index.js" defer></script>
+        <script type="text/javascript" src="server.js" defer></script>
+    </head>
+    <body>
+        <h1>Charset</h1>
+        <form method = "post" action = "/">
+            <span>Change charset: </span>
+            <input id = "string" name = "string" type = "text" placeholder="input string" autofocus>
+            <br>
+            <span>Select charset</span>
+            <select id="charsets" name = "charsets">
+                <option value="UTF-8">UTF-8</option>
+                <option value="ISO-8859-1">ISO-8859-1</option>
+                <option value="Windows-1252">Windows-1252</option>
+            </select>
+            <br>
+            <input  type = "submit" id = "submit" value = "Change charset">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+html
+  head
+    title= title
+    style(type="text/css").
+        .btn-link {
+            border: none;
+            outline: none;
+            background: none;
+            cursor: pointer;
+            color: #0000EE;
+            padding: 0;
+            text-decoration: underline;
+            font-family: inherit;
+            font-size: inherit;
+        }
+        .none {visibility: hidden;}
+  body
+    <h1>File Manager</h1>
+        <h1>File Manager</h1>
+        <form method = "post" action = "/">
+            <h2>Create a file</h1>
+            <span>Filename: </span>
+            <input id = "fileName" name = "fileName" type = "text" placeholder="Name of file" autofocus>
+            <br>
+            <span>Content: </span>
+            <textarea id = "noteText" name = "noteText" placeholder="type text for file...." rows = "5" cols = "20" max="500"></textarea>
+            <br>
+            <input  type = "submit" id = "submit" value = "Create a file">
+        </form>
+    h1= "Files"
+    button(type="button" onclick="changeCss()" id="getTofile" name="getTofile" class="btn-link")=timeAndFilename
+    <a href="delete.com">  DELETE</a>
+    <div>
+        h1= "Selected file: " + fileName
+        h2= "Content: "
+        ul
+            each val in ["text: " + noteText]
+                li= val
+    </div>

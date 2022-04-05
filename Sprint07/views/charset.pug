@@ -1,0 +1,23 @@
+html
+  head
+    title= title
+  body
+    <h1>Charsets</h1>
+    <span>Change charset: </span>
+    <input id = "string" name = "string" type = "text" placeholder="input string" autofocus>
+    <br>
+    <span>Select charset</span>
+    <select id="charsets" name = "charsets">
+        <option value="utf8">UTF-8</option>
+        <option value="iso">ISO-8859-1</option>
+        <option value="win1252">Windows-1252</option>
+    </select>
+    <br>
+    <input  type = "submit" id = "submit" value = "Change charset">
+    <br><br>
+    span= "Input string:  "
+    span= string
+    <br>
+    span= charsets
+    span= "    "
+    span= converted

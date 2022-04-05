@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "type": "module",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "helmet": "^5.0.2",
+    "pug": "^3.0.2",
+    "utf8": "^3.0.0"
+  },
+  "name": "sprint07",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

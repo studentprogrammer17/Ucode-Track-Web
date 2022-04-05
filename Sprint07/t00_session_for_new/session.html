@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Session for new</title>
+        <meta name="description" content="t01.Session for new">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="server.js" defer></script>
+    </head>
+    <body>
+        <form method = "GET" action = "/session">
+            <p id = "aboba"></p>
+            <h1>Session for new</h1>
+            <p>name: <span id = "nameSession"></span> </p> 
+            <p id = "allias">allias: </p>
+            <p id = "age">age: </p>
+            <p id = "description">description: </p>
+            <p id = "photo">photo: </p>
+            <p id = "experience">experience: </p>
+            <p id = "level">level: </p>
+            <p id = "purpose">purpose: </p>
+            <input type = "submit" id = "submit" value = "FORGET">
+        </form>
+
+        <!-- <script>
+            fetch('/session', {
+        method: 'POST',
+        body: JSON.stringify({
+            name,
+            mail,
+            age,
+            description,
+            photo,
+            experience,
+            level,
+            purpose
+        }),
+    })
+        .then((res) => {
+            return res.json() + "<br>";
+        })
+        .then((data) => console.log(data));
+        </script> -->
+                
+        <!-- <script>
+            let nameSession = document.getElementById("nameSession");
+            let val = localStorage.getItem("firstname");
+            nameSession.innerHTML = val;
+        </script>   -->
+
+    </body>
+    
+
+</html>
+

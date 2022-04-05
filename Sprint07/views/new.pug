@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+  body
+    h1= "Password"
+    h2= "Pasword saved at session"
+    h2= `Hash is ${hash}`
+    <span>Try to guess</span>
+    <form method = "post" action = "/check">
+      <input id = "check_pass" name = "check_pass" type = "text" placeholder="password">
+      <input  type = "submit" id = "submit" name = "submit" value = "Check password">
+    </form>

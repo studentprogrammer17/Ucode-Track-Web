@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hack it</title>
+        <meta name="description" content="t01.Hack it">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="index.js" defer></script>
+        <script type="text/javascript" src="server.js" defer></script>
+    </head>
+    <body>
+        <h1>Password</h1>
+        <form method = "post" action = "/">
+            <h2>Password not saved at session</h2>
+            <span>Password for saving to session</span>
+            <input id = "pass" name = "pass" type = "text" placeholder="password" autofocus>
+            <br>
+            <span>Salt for saving to session</span>
+            <input id = "salt" name = "salt" type = "text" placeholder="salt">
+            <br>
+            <input  type = "submit" id = "submit" value = "Save">
+        </form>
+    </body>
+</html>

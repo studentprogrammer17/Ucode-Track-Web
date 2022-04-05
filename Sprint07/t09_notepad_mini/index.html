@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Notepad mini</title>
+        <meta name="description" content="t09.Notepad min">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="index.js" defer></script>
+        <script type="text/javascript" src="Note.js" defer></script>
+    </head>
+    <body>
+        <h1>NotePad mini</h1>
+        <form method = "post" action = "/">
+            <input id = "fileName" name = "fileName" type = "text" placeholder="Name of file" autofocus>
+            <br>
+            <select id="importance" name = "importance">
+                <option value="low">low</option>
+                <option value="medium">medium</option>
+                <option value="high">high</option>
+            </select>
+            <br>
+            <textarea id = "noteText" name = "noteText" placeholder="type text for note...." rows = "5" cols = "20" max="500"></textarea>
+            <br>
+            <input  type = "submit" id = "submit" value = "Create">
+        </form>
+    </body>
+</html>

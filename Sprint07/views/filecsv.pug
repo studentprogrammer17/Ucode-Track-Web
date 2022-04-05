@@ -1,0 +1,145 @@
+html
+    head
+        title= title
+        style(type="text/css").
+            .styled-table {
+                background: linear-gradient(#cc2b5e , #753a88);
+                border-collapse: collapse;
+                margin: 25px 0;
+                font-size: 0.9em;
+                font-family: sans-serif;
+                min-width: 400px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            }
+            .styled-table th,
+            .styled-table td {
+                color: white;
+            }
+            .styled-table tr td {
+                border-bottom: 1px solid #dddddd;
+            }
+
+            .styled-table td tr:nth-of-type(even) {
+                background-color: #f3f3f3;
+            }
+
+            .styled-table td tr:last-of-type {
+                border-bottom: 2px solid #009879;
+            }
+            .styled-table td tr.active-row {
+                font-weight: bold;
+                color: #009879;
+            }
+    body
+        <h1>Parsing CSV data</h1>
+        
+            <span>Upload file:  </span>
+            <input id = "fileName" name = "fileName" type = "file">
+            <br>
+            <input  type = "submit" id = "submit" value = "Upload">
+        
+    <table class="styled-table"><tr>
+    <td>
+      <table>
+        <tr><th>ID</th></tr>
+            for i of id 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Name</th></tr>
+            for i of names 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Alignment</th></tr>
+            for i of Alignment 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Gender</th></tr>
+            for i of Gender 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>EyeColor</th></tr>
+            for i of EyeColor 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Race</th></tr>
+            for i of Race 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>HairColor</th></tr>
+            for i of HairColor 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Publisher</th></tr>
+            for i of Publisher 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>SkinColor</th></tr>
+            for i of SkinColor 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Height</th></tr>
+            for i of Height 
+                tr=''
+                td=i
+      </table>
+    </td>
+
+    <td>
+      <table>
+        <tr><th>Weight</th></tr>
+            for i of Weight 
+                tr=''
+                td=i
+      </table>
+    </td>
+    
+
+</tr></table>
+
+        
+        

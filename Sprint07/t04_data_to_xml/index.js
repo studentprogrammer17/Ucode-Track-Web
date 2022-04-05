@@ -1,0 +1,2 @@
+let SlavaUkraine = "Heroiam Slava!";
+

@@ -1,0 +1,50 @@
+html
+  head
+    title= title
+    style(type="text/css").
+        .for {
+            text-align: center; 
+            margin: auto;
+            width: 60%;
+            border: 5px solid #FFFF00; 
+            padding: 10px;
+        }
+        img {
+            width: 250px;
+            height: 250px;
+        }
+        .block1 {
+            text-align: center; 
+            margin: auto;
+            width: 60%;
+            border: 5px solid #FFFF00; 
+            padding: 10px;
+        }
+        .block2 {
+            margin-top: 500px;
+            text-align: center; 
+            margin: auto;
+            width: 60%;
+            border: 5px solid #FFFF00; 
+            padding: 10px;
+        }
+        .red {background-color: red}
+        .green {background-color: green}
+        .blue {background-color: blue}
+  body
+    <div class = "for">
+        <h1>Make square image</h1>
+        <form  method = "post" action = "/">
+            <input id = "url" name = "url" type = "text" placeholder="input url of image">
+            <br>
+            <input  type = "submit" id = "submit" value = "GOOO">
+        </form>
+    </div>
+    <div class = "block1">
+        img(src=url)
+        img(class = "red" src=url)
+    </div>
+    <div class = "block2">
+        img(class = "green" src=url)
+        img(class = "blue" src=url)
+    </div>
